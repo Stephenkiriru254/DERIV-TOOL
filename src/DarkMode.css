@@ -1,0 +1,94 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#root {
+  height: 100%;
+}
+
+.MuiBox-root {
+  display: flex;
+  flex-direction: column;
+}
+
+.MuiDivider-root {
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.MuiPaper-root {
+  background-color: #1e1e1e !important;
+}
+
+.MuiTypography-root {
+  color: #ffffff !important;
+}
+
+.MuiInputBase-root {
+  color: #ffffff !important;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border-color: rgba(255, 255, 255, 0.23) !important;
+}
+
+.MuiSelect-icon {
+  color: #ffffff !important;
+}
+
+.MuiInputLabel-root {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.MuiInputLabel-root.Mui-focused {
+  color: #90caf9 !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #90caf9 !important;
+}
+
+.MuiMenuItem-root {
+  color: #ffffff !important;
+}
+
+.MuiMenuItem-root:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.chartjs-render-monitor {
+  background-color: #1e1e1e !important;
+}
+
+/* Dropdown menu styles */
+.MuiSelect-select {
+  color: #ffffff !important;
+}
+
+.MuiMenu-paper {
+  background-color: #424242 !important;
+}
+
+.MuiMenuItem-root {
+  color: #ffffff !important;
+}
+
+.MuiMenuItem-root:hover {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.MuiMenuItem-root.Mui-selected {
+  background-color: rgba(144, 202, 249, 0.16) !important;
+}
+
+.MuiMenuItem-root.Mui-selected:hover {
+  background-color: rgba(144, 202, 249, 0.24) !important;
+}
+
+/* Ensure the select icon is white */
+.MuiSelect-icon {
+  color: #ffffff !important;
+}
